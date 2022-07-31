@@ -4,7 +4,7 @@ const { Markup } = require("telegraf")
 bot.command('inlineSilka' , ctx => {
     const keyboard = Markup.inlineKeyboard(
         [
-            Markup.urlButton('Goole','google.com'),
+            Markup.urlButton('Google','google.com'),
         ]
     )
     ctx.telegram.sendMessage(
