@@ -18,7 +18,7 @@ bot.command('inlineSilka' , ctx => {
 
 //callback button
 
-bot.command('inlineCallback' , ctx => {
+bot.command('inlineCallback_1' , ctx => {
     const keyboard = Markup.inlineKeyboard(
         [
             Markup.callbackButton('Tester','inline'),
